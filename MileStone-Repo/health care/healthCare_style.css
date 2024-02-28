@@ -1,0 +1,228 @@
+
+/* .SectionContainer{
+   margin: auto;
+   padding: 5px 1px;
+}
+.SectionHeader{
+
+}
+.but{
+    padding: .75px 2px;
+    outline: none;
+    border: none;
+}
+img{
+    width: 100%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav_container{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLogo{
+    font-size: 1.5px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.nav_links{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 4px;
+}
+.link a{
+    padding: .5rem;
+}
+.link a:hover{
+    color: white;
+}
+.headercontent{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.headercontent h1{
+    margin-bottom: 1px;
+    max-width: 800px;
+    font-size: 3.5px;
+    line-height: 4px;
+    color: white;
+}
+.headercontent p{
+    margin-bottom: 2px;
+    max-width: 600px;
+    color: blanchedalmond;
+}
+.header_form{
+    width: 100%;
+    max-width: 350px;
+}
+.header_form form {
+    display: flex;
+    gap: 1rem;
+    padding: 2px;
+    background-color: white;
+    border-radius: 10px;
+}
+.header_form input::placeholder{
+    color: bisque;
+}
+.from_but{
+    background-color: whitesmoke;
+}
+.from_but:hover{
+    background-color: blueviolet;
+}
+ .header_form h4{
+    font-size: 1.5px;
+    font-weight: 700;
+    color: azure;
+ } */
+ /*     <header class="SelectionHeader">
+        <nav class="SelectionContainer">
+            <div class="navLogo">health Care</div>
+             <ul class="nav_links">
+                  <li class="link"><a href="#">home</a></li>
+                  <li class="link"><a href="#">about us</a></li>
+                  <li class="link"><a href="#">sevice</a></li>
+                  <li class="link"><a href="#">page</a></li>
+                  <li class="link"><a href="#">blog</a></li>
+             </ul>
+             <button class="but">contact us</button>
+        </nav>
+        <div class="SelectionContainer">
+            <div class="headercontent"> 
+                <h1>
+                     MEET THE BEST 
+                </h1>
+                <H1>HOSPITAL</H1>
+                <P>Lorem ipsum, dolor sit amet 
+                    consectetur adipisicing elit.
+                    Expedita et nulla doloribus.</P>
+                   <button class="">CALL US</button>
+                   <button class=""> LEARN MORE</button>
+        </div> 
+         <div class="header_form">
+            <form>
+                <h4>BOOK NOW</h4>
+                <input type="text" placeholder="FIRST NAME">
+                <input type="text" placeholder="LAST NAME">
+                <input type="text" placeholder="ADDRESS">
+                <input type="text" placeholder="PHONE NO.">
+                <button class="butform">BOOK APPOINTMENT</button>
+            </form>
+         </div>
+    /* </div> * */
+    /* new codes */
+    *{
+        padding: 0px;
+        margin: 0px;   
+    }   
+    /* body {
+        background-image: url(background.png);
+        background-repeat:  no-repeat;} */
+        
+    
+    .header{
+        padding: 30px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+    }
+    .header #logo{
+        width:50px;
+        }
+        .navbar a{
+            color: aliceblue;
+            font-size: 18px;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        .button{
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+           background-color: rgb(7, 169, 233);
+           font-size: 15px;
+           font-style: bold;
+        }
+         .abutton{
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+           background-color: rgb(7, 169, 233);
+           font-size: 15px;
+           font-style: bold;
+          color: aliceblue;
+        }
+        /* .navbar a::after{
+        content: '';
+        background: var(--secclr)
+        width: 0;
+        height:3px;
+        postion: absolute;
+        top:100%;
+        left: 0;
+        margin-top: 5px;
+        width: 0px;
+        } */
+        /* .navbar a:hover{
+             
+        }  */
+.bg-img{
+    background-image: url(background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    /* position: relative;
+ */}
+.bg-content{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 50%;
+}
+.bg-content h1 {
+   color: whitesmoke;
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+.bg-content p{
+     font-size: 25px;
+     color: whitesmoke;
+
+}
+.bt-content{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+   background-color: rgb(7, 169, 233);
+   font-size: 15px;
+   font-style: bold;
+  color: aliceblue;
+}
+.bt-content2 {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+   background-color: transparent;
+   font-size: 15px;
+   font-style: bold;
+  color: aliceblue;
+}
